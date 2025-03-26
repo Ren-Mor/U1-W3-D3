@@ -68,3 +68,7 @@ body {
   padding: 5px 10px;
   margin: 10px;
 }
+
+.Fatto {
+  text-decoration: line-through;
+}
