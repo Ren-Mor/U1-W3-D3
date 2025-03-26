@@ -12,8 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const deleteButton = document.createElement("button");
       deleteButton.textContent = "Cancella";
-      deleteButton.classList.add("Cancella");
+      deleteButton.classList.add("cancella");
       taskItem.appendChild(deleteButton);
+
+      taskItem.addEventListener("click", function () {
+        taskItem.classList.toggle("Fatto");
+      });
 
       deleteButton.addEventListener("click", function (e) {
         taskList.removeChild(taskItem);
