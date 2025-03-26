@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Gidole&display=swap");
+body {
+  font-family: "Gidole", sans-serif;
+  background-image: url(./assets/Background.avif);
+  background-color: rgba(219, 219, 219, 0.495);
+  background-blend-mode: overlay;
+  background-size: cover;
+  border: 20px solid white;
+}
+
+.crime-list-block {
+  width: 85%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.task-list-block h1 {
+  text-align: center;
+  color: black;
+}
+
+.task-input {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.task-input input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 250px;
+  display: inline-block;
+}
+
+.task-input button {
+  padding: 10px 15px;
+  background-color: rgb(111, 85, 54);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.task-input button:hover {
+  background-color: rgb(198, 142, 82);
+}
+
+#task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#task-list li {
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.cancella {
+  background-color: rgb(111, 85, 54);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 10px;
+}
